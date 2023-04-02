@@ -1,0 +1,49 @@
+#signup{
+background-color: #023E8A;
+color: aliceblue;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+  
+  nav a:hover,
+nav a:active {
+  border-bottom: 2px solid #FFB700;
+}
+
+  
+#herobtn2{
+
+    border: 2px solid #023E8A;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#herobtn1{
+    background-color: #023E8A;
+}
+
+#analytics{
+    color: #FFB700;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  #navbar.scrolled {
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  #hero{
+    padding-top: 13rem;
+  }
